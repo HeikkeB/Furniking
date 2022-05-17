@@ -12,3 +12,18 @@
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang/__lang_select/header__lang_select.css);
 @import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/header/__shopping-cart/header__link.css);
+@import url(../blocks/header/__menu-user/header__menu-user.css);
+@import url(../blocks/header/__menu-icon/header__icon.css);
+
+@import url(../blocks/search/search.css);
+@import url(../blocks/search/__button/search__button.css);
+@import url(../blocks/search/__form/search__form.css);
+@import url(../blocks/search/__input/search__input.css);
+
+@import url(../blocks/menu__all-collect/menu-all-collect.css);
+@import url(../blocks/menu__all-collect/__name/menu-all-collect__name.css);
+@import url(../blocks/menu__all-collect/__name/menu-all-collect__name_text.css);
+@import url(../blocks/menu__all-collect/menu-all-collect__link.css);
+@import url(../blocks/menu__all-collect/menu-all-collect__cell.css);

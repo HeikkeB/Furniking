@@ -14,5 +14,12 @@
     background-color: #7AC751;
     padding: 0;
     text-align: center;
+    cursor: pointer;
+    transition: opacity .4s ease;
+    opacity: 1;
+}
 
+.header__lang:hover {
+    transition: opacity .4s ease;
+    opacity: .8;
 }

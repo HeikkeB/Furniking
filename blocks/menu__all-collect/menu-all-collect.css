@@ -1,0 +1,8 @@
+.menu-all-collect {
+    position: absolute;
+    top: 30%;
+    left: 135px;
+    min-width: 260px;
+    padding: 0;
+    list-style: none;
+}

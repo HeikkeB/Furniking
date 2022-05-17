@@ -6,4 +6,11 @@
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: opacity .5s ease;
+    opacity: 1;
+}
+
+.header__sign-up:hover {
+    transition: opacity .5s ease;
+    opacity: .7;
 }

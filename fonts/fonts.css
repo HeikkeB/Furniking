@@ -10,7 +10,13 @@
     src: url(../fonts/Rubik-Regular.ttf);
 }
 
+/*@font-face {
+    font-family: 'Rubik';
+    font-weight: light;
+    src: url(../fonts/Rubik-Light.ttf);
+}
+
 @font-face {
     font-family: 'Rubik';
     src: url(../fonts/Rubik-Medium.ttf);
-}
+}*/

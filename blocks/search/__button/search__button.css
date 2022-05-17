@@ -1,0 +1,14 @@
+.search__button {
+    position: absolute;
+    left: 955px;
+    top: 75px;
+    width: 55px;
+    height: 48px;
+    border: none;
+    background: #7AC751;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    background-image: url(../../../image/search_button.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

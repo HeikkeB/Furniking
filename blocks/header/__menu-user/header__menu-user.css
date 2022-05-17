@@ -1,0 +1,12 @@
+.header__menu-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 13%;
+    left: 79.7%;
+    list-style: none;
+    min-width: 120px;
+    margin: 0;
+    padding: 0;
+}

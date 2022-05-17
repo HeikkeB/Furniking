@@ -1,0 +1,10 @@
+.menu-all-collect__name {
+    display: flex;
+    position: absolute;
+    width: 260px;
+    height: 67px;
+    left: 135px;
+    top: 22.5%;
+
+    background: #7AC751;
+}
