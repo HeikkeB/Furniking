@@ -1,0 +1,9 @@
+.header__menu-horizontal {
+    position: absolute;
+    top: 22.5%;
+    height: 67px;
+    width: 1440px;
+    background: #F7F8FA;
+    display: flex;
+    justify-content: center;
+}

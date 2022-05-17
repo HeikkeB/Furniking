@@ -22,8 +22,17 @@
 @import url(../blocks/search/__form/search__form.css);
 @import url(../blocks/search/__input/search__input.css);
 
+@import url(../blocks/header/__menu-horizontal/header__menu-horizontal.css);
+@import url(../blocks/header/__menu-horizontal/header__menu-horizontal_links.css);
+@import url(../blocks/header/__menu-horizontal/header__menu-horizontal_link.css);
+
 @import url(../blocks/menu__all-collect/menu-all-collect.css);
 @import url(../blocks/menu__all-collect/__name/menu-all-collect__name.css);
 @import url(../blocks/menu__all-collect/__name/menu-all-collect__name_text.css);
 @import url(../blocks/menu__all-collect/menu-all-collect__link.css);
 @import url(../blocks/menu__all-collect/menu-all-collect__cell.css);
+
+@import url(../blocks/header/__banner/header__banner.css);
+@import url(../blocks/header/__banner/header__banner_paragraph.css);
+@import url(../blocks/header/__banner/header__banner_subtitle.css);
+@import url(../blocks/header/__banner/header__banner_title.css);
