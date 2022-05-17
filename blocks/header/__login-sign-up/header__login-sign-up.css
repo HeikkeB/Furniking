@@ -1,0 +1,13 @@
+.header__login-sign-up {
+    display: flex;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    min-width: 121px;
+    height: 19px;
+    right: 9%;
+    list-style: none;
+    flex-direction: row;
+    margin: 15px auto;
+
+}

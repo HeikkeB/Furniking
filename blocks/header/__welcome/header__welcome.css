@@ -1,0 +1,13 @@
+.header__welcome {
+    position: absolute;
+    min-width: 204px;
+    height: 19px;
+    left: 9%;
+    margin: 15px auto;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}

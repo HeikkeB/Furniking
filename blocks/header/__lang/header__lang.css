@@ -1,0 +1,18 @@
+.header__lang {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: absolute;
+    min-width: 101px;
+    height: 19px;
+    left: 70%;
+    margin: 15px auto;
+    border: 0;
+    background-color: #7AC751;
+    padding: 0;
+    text-align: center;
+
+}
