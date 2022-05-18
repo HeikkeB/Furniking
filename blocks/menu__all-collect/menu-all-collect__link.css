@@ -8,4 +8,10 @@
     color: #555555;
     text-decoration: none;
     padding-left: 10px;
+    opacity: .8;
+}
+
+.menu-all-collect__link:hover {
+    opacity: 1;
+    transition: opacity .2s ease;
 }

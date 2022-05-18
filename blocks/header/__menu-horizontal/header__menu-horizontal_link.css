@@ -7,6 +7,12 @@
     color: #555555;
     padding: 0;
     text-decoration: none;
+    opacity: .8;
+
 }
 
-.header__menu-horizontal_link:hover {}
+.header__menu-horizontal_link:hover {
+    opacity: 1;
+    transition: opacity .2 ease;
+
+}

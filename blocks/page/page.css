@@ -4,4 +4,7 @@
     height: 6431px;
     margin: 0 auto;
     background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

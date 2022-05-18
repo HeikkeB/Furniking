@@ -42,3 +42,13 @@
 @import url(../blocks/header/__banner/header__banner_img-chair.css);
 
 @import url(../blocks/header/__banner/header__banner_chair-list.css);
+
+@import url(../blocks/feature/feature.css);
+@import url(../blocks/feature/__list/feature__list.css);
+@import url(../blocks/feature/__cell/feature__cell.css);
+
+@import url(../blocks/offers/offers.css);
+@import url(../blocks/offers/__rect-img-xl/offers__rect-img-xl.css);
+@import url(../blocks/offers/__rect-list/offers__rect-list.css);
+
+@import url(../blocks/trending/trending.css);

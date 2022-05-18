@@ -22,7 +22,7 @@
 }
 
 .header__banner_card:hover {
-    box-shadow: 0 0 5px #577ac4;
+    box-shadow: 0 0 3px #577ac4;
     transform: scale(1.5);
     transition: transform .3s ease;
 }
