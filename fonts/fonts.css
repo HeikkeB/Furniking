@@ -20,3 +20,8 @@
     font-family: 'Rubik';
     src: url(../fonts/Rubik-Medium.ttf);
 }*/
+
+@font-face {
+    font-family: 'Mulish';
+    src: url(../fonts/Mulish-Regular.ttf);
+}

@@ -1,0 +1,11 @@
+.header__banner_title {
+    width: 318px;
+    font-family: 'Rubik';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #2F2F2F;
+    padding: 0;
+    margin: 6px auto 29px 0;
+}

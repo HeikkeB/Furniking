@@ -1,0 +1,15 @@
+.header__banner_button {
+    background: #7AC751;
+    border-radius: 5px;
+    border: 0;
+    width: 129px;
+    height: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0 auto 112px 47px;
+}

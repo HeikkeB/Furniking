@@ -1,0 +1,10 @@
+.header__banner_rect {
+    position: absolute;
+    left: 19.5%;
+    top: 45%;
+    width: 191px;
+    height: 6px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
