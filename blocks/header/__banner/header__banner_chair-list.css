@@ -1,0 +1,73 @@
+.header__banner_chair-list {
+    width: 98px;
+    min-height: 327px;
+    position: absolute;
+    top: 8%;
+    left: 80%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header__banner_card {
+    width: 98px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform .3s ease;
+
+}
+
+.header__banner_card:hover {
+    box-shadow: 0 0 5px #577ac4;
+    transform: scale(1.5);
+    transition: transform .3s ease;
+}
+
+
+.header__banner_card_img {
+    width: 49px;
+    height: 53px;
+    margin: 5px auto 0px;
+}
+
+.header__banner_card_img_two {
+    width: 79px;
+    height: 53px;
+    margin: 5px auto 0px;
+}
+
+.header__banner_card_img_three {
+    width: 51px;
+    height: 57px;
+    margin: 5px auto 0px;
+}
+
+.header__banner_card_price {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #7AC751;
+    padding: 0;
+    margin: 0;
+}
+
+.header__banner_card_name {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #555555;
+    padding: 0;
+    margin: 0;
+}

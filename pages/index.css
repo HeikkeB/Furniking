@@ -39,3 +39,6 @@
 @import url(../blocks/header/__banner/header__banner_title.css);
 @import url(../blocks/header/__banner/header__banner_rect.css);
 @import url(../blocks/header/__banner/header__banner_button.css);
+@import url(../blocks/header/__banner/header__banner_img-chair.css);
+
+@import url(../blocks/header/__banner/header__banner_chair-list.css);

@@ -11,5 +11,10 @@
     line-height: 20px;
     color: #FFFFFF;
     padding: 0;
-    margin: 0 auto 112px 47px;
+    margin: 0;
+    transition: transform .2s ease-in;
+}
+
+.header__banner_button:hover {
+    transform: scale(1.05);
 }
