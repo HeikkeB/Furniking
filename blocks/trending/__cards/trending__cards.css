@@ -1,4 +1,6 @@
 .trending__cards {
-    border: 1px solid red;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 45px;
 }

@@ -1,5 +1,36 @@
 .trending__cards-item_prices {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
+    list-style: none;
+    width: 107px;
+    height: 21px;
+    padding: 0;
+    margin: 0;
+}
+
+.trending__cards-item_price_active {
+    width: 50px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #7AC751;
+}
+
+.trending__cards-item_price {
+    width: 50px;
+    padding: 0;
+    margin: 0 0 0 7px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-decoration-line: line-through;
+    color: #CCCCCC;
 }

@@ -1,0 +1,22 @@
+.trending__cards-item_stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 10px;
+    width: 67px;
+    padding: 0;
+    margin-left: 197px;
+    margin-top: -12px;
+    opacity: .8;
+}
+
+.trending__cards-item_star {
+    margin: 0 1px;
+    padding: 0;
+    height: 12.5px;
+    width: 13.5px;
+    transform: scale(1);
+    transition: transform .3s ease;
+}
