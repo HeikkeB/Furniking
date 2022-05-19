@@ -1,0 +1,15 @@
+.special-offer__timer {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    margin: 30px 0 0 24px;
+    padding: 0;
+    z-index: 2;
+    width: 235px;
+    border-radius: 5px;
+    text-align: start;
+    color: #7AC751;
+}

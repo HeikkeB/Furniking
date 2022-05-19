@@ -1,0 +1,52 @@
+.special-offer__card {
+    height: 249px;
+    width: 570px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    transition: transform .2s ease-in;
+    transform: scale(1);
+}
+
+.special-offer__card:hover {
+    box-shadow: 0 0 3px #66a046;
+    transform: scale(1.02);
+    transition: transform .2s ease-out;
+}
+
+.special-offer__img {
+    height: 249px;
+    width: 570px;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.special-offer__title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #555555;
+    margin: 28px 0 11px 24px;
+    padding: 0;
+    width: 227px;
+    height: 28px;
+    z-index: 2;
+    text-align: center;
+}
+
+.special-offer__paragraph {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #757575;
+    z-index: 2;
+    margin: 0 0 0 24px;
+    height: 38px;
+    width: 227px;
+}
