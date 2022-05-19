@@ -1,0 +1,7 @@
+.trending__card-item {
+    border: 1px solid red;
+    height: 387px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}

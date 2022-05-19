@@ -1,0 +1,14 @@
+.trending__cards-item_name {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    text-transform: uppercase;
+    color: rgba(117, 117, 117, 0.71);
+    margin: 280px 0 0 0;
+    padding: 0;
+    height: 18px;
+    width: 49px;
+}

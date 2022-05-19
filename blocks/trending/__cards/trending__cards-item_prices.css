@@ -1,0 +1,5 @@
+.trending__cards-item_prices {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}

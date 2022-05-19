@@ -1,15 +1,25 @@
 .feature__cell {
     height: 58px;
-    width: 293px;
-    margin: 0;
+    width: 250px;
+    margin: 0 0 0 42px;
     padding: 0;
     display: flex;
 }
 
-.feature__cell_img {}
+.feature__cell_img {
+    width: 58px;
+    height: 58px;
+    margin: 0;
+    padding: 0;
+}
+
+.feature__cell_img:hover {
+    transition: transform .1s ease;
+    transform: scale(1.05);
+}
 
 .feature__cell_title {
-    width: 180px;
+    width: 160px;
     height: 26px;
     margin: 0;
     padding: 0;
@@ -22,7 +32,7 @@
 }
 
 .feature__cell_paragraph {
-    width: 180px;
+    width: 160px;
     height: 26px;
     font-family: 'Rubik';
     font-style: normal;
@@ -36,6 +46,6 @@
 
 .feature__cell_table {
     list-style: none;
-    margin: 5px auto auto 20px;
+    margin: 5px 0 auto 20px;
     padding: 0;
 }
