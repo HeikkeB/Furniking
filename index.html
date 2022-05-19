@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniking</title>
+    <link rel="shortcut icon" href="./image/logo_ico.png" type="image/png">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -312,8 +313,8 @@
                     <p class="trending__cards-item_name">Chair</p>
                     <h3 class="trending__cards-item_title">Elegent wood chair</h3>
                     <ul class="trending__cards-item_prices">
-                        <li class="trending__cards-item_price_active">$135</li>
-                        <li class="trending__cards-item_price">$155</li>
+                        <li class="trending__cards-item_price_active">$60</li>
+                        <li class="trending__cards-item_price">$90</li>
                     </ul>
 
                     <ul class="trending__cards-item_stars">
@@ -329,57 +330,51 @@
 
         <section class="special-offer">
             <h2 class="section__title">SPECIAL OFFER</h2>
-            <div class="special-offer__card">
-                <img class="special-offer__img" src="./image/special offer_living_room.png"
-                    alt="special offer_living_room">
-                <h3 class="special-offer__title">Living Room Furniture</h3>
-                <p class="special-offer__paragraph">You don't have a chair. Are you ready for growth? Shop with us 40%
-                    discount!</p>
-                <ul class="special-offer__prices">
-                    <li class="special-offer__price_active">$150</li>
-                    <li class="special-offer__price">$250</li>
-                </ul>
-                <a class="special-offer__button" href="#">SHOP NOW</a>
 
-                <p class="special-offer__timer" id="special-offer__timer"></p>
+            <div class="special-offer__cards">
+                <div class="special-offer__card">
+                    <img class="special-offer__img-sale" src="./image/fourty_off.svg">
+                    <img class="special-offer__img" src="./image/special offer_living_room.png"
+                        alt="special offer_living_room">
+                    <h3 class="special-offer__title">Living Room Furniture</h3>
+                    <p class="special-offer__paragraph">You don't have a chair. Are you ready for growth? Shop with us
+                        40%
+                        discount!</p>
+                    <ul class="special-offer__prices">
+                        <li class="special-offer__price_active">$150</li>
+                        <li class="special-offer__price">$250</li>
+                    </ul>
+                    <a class="special-offer__button" href="#">SHOP NOW</a>
 
+                    <p class="special-offer__timer" id="special-offer__timer"></p>
+
+                </div>
+
+                <div class="special-offer__card">
+                    <img class="special-offer__img-sale" src="./image/fifty_off.svg">
+                    <img class="special-offer__img" src="./image/special-offer_modern_chair.png"
+                        alt="special offer_living_room">
+                    <h3 class="special-offer__title">Modern chair</h3>
+                    <p class="special-offer__paragraph">Hot chairs of the modern era are now available in our stock.</p>
+                    <ul class="special-offer__prices">
+                        <li class="special-offer__price_active">$75</li>
+                        <li class="special-offer__price">$150</li>
+                    </ul>
+                    <a class="special-offer__button" href="#">SHOP NOW</a>
+
+                    <p class="special-offer__timer" id="special-offer__timer_two"></p>
+
+                </div>
             </div>
+        </section>
 
-
-
+        <section class="our-products">
+            <h2 class="section__title">OUR PRODUCTS</h2>
         </section>
     </div>
-    <script>
-        // Set the date we're counting down to
-        var countDownDate = new Date("June 5, 2022 15:37:25").getTime();
 
-        // Update the count down every 1 second
-        var x = setInterval(function () {
 
-            // Get todays date and time
-            var now = new Date().getTime();
-
-            // Find the distance between now an the count down date
-            var distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Output the result in an element with id="demo"
-            document.getElementById("special-offer__timer").innerHTML = days + " days " + hours + " hrs "
-                + minutes + " min " + seconds + " secs";
-
-            // If the count down is over, write some text 
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("special-offer__timer").innerHTML = "EXPIRED";
-            }
-        }, 1000);
-    </script>
-
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>

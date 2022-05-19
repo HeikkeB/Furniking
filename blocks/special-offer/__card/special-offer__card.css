@@ -1,3 +1,8 @@
+.special-offer__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
 .special-offer__card {
     height: 249px;
     width: 570px;
@@ -12,6 +17,16 @@
     box-shadow: 0 0 3px #66a046;
     transform: scale(1.02);
     transition: transform .2s ease-out;
+}
+
+.special-offer__img-sale {
+    height: 23px;
+    width: 64px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
 }
 
 .special-offer__img {
