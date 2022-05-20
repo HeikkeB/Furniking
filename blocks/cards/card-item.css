@@ -1,4 +1,4 @@
-.trending__card-item {
+.card-item {
     height: 387px;
     width: 270px;
     display: flex;
@@ -7,7 +7,7 @@
     transform: scale(1);
 }
 
-.trending__card-item:hover {
+.card-item:hover {
     box-shadow: 0 0 3px #66a046;
     transform: scale(1.1);
     transition: transform .3s ease-out;

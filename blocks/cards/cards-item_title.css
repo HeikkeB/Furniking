@@ -1,4 +1,4 @@
-.trending__cards-item_title {
+.cards-item_title {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -7,7 +7,7 @@
     letter-spacing: 0.005em;
     color: #555555;
     height: 28px;
-    width: 226px;
-    margin: 9px 0;
+    width: 265px;
+    margin: 9px 0 0 5px;
     padding: 0;
 }

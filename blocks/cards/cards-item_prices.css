@@ -1,14 +1,14 @@
-.trending__cards-item_prices {
+.cards-item_prices {
     display: flex;
     flex-direction: row;
     list-style: none;
     width: 107px;
     height: 21px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 3px;
 }
 
-.trending__cards-item_price_active {
+.cards-item_price_active {
     width: 50px;
     font-family: 'Mulish';
     font-style: normal;
@@ -20,7 +20,7 @@
     color: #7AC751;
 }
 
-.trending__cards-item_price {
+.cards-item_price {
     width: 50px;
     padding: 0;
     margin: 0 0 0 7px;

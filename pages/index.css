@@ -58,7 +58,19 @@
 
 @import url(../blocks/trending/trending.css);
 /*@import url(../blocks/trending/__top-menu/trending__top-menu.css);*/
-@import url(../blocks/trending/__cards/trending__cards.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/card-item.css);
+@import url(../blocks/cards/card-item_new.css);
+@import url(../blocks/cards/__favorite/cards-item__favorite.css);
+@import url(../blocks/cards/__shop-card-icon/cards-item__shop-card-icon.css);
+@import url(../blocks/cards/cards-item_img.css);
+@import url(../blocks/cards/cards-item_prices.css);
+@import url(../blocks/cards/cards-item_title.css);
+@import url(../blocks/cards/cards-item_name.css);
+@import url(../blocks/cards/cards-item_stars.css);
+
+/*@import url(../blocks/trending/__cards/trending__cards.css);
 @import url(../blocks/trending/__cards/trending__card-item.css);
 @import url(../blocks/trending/__cards/trending__card-item_new.css);
 @import url(../blocks/trending/__cards/);
@@ -68,7 +80,7 @@
 @import url(../blocks/trending/__cards/trending__cards-item_name.css);
 @import url(../blocks/trending/__cards/trending__cards-item_title.css);
 @import url(../blocks/trending/__cards/trending__cards-item_prices.css);
-@import url(../blocks/trending/__cards/trending__cards-item_stars.css);
+@import url(../blocks/trending/__cards/trending__cards-item_stars.css);*/
 
 @import url(../blocks/special-offer/special-offer.css);
 @import url(../blocks/special-offer/__card/special-offer__card.css);
@@ -77,3 +89,10 @@
 @import url(../blocks/special-offer/__timer/special-offer__timer.css);
 
 @import url(../blocks/our-products/our-products.css);
+
+@import url(../blocks/our-latest-articles/our-latest-articles.css);
+
+@import url(../blocks/cards-big/cards-big.css);
+@import url(../blocks/cards-big/__item/card-big__item.css);
+@import url(../blocks/cards-big/__item/card-big__img.css);
+@import url(../blocks/cards-big/__item/card-big__tag.css);

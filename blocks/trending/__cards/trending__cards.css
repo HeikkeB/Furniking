@@ -1,6 +1,0 @@
-.trending__cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    row-gap: 45px;
-}
