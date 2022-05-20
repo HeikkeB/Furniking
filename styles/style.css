@@ -85,3 +85,73 @@
     transition: opacity .5s ease;
     opacity: .7;
 }
+
+.header__lang {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: absolute;
+    min-width: 101px;
+    height: 19px;
+    left: 70%;
+    margin: 15px auto;
+    border: 0;
+    background-color: #7AC751;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity .4s ease;
+    opacity: 1;
+}
+
+.header__lang:hover {
+    transition: opacity .4s ease;
+    opacity: .8;
+}
+
+.header__lang_select {
+    border: 0;
+}
+
+.header__logo {
+    display: flex;
+    position: absolute;
+    width: 147px;
+    height: 38.96px;
+    left: 12%;
+    top: 12%;
+    padding: 0;
+    background-size: cover;
+}
+
+.header__link {
+    transition: opacity .5s ease;
+    opacity: 1;
+}
+
+.header__link:hover {
+    transition: opacity .5s ease;
+    opacity: .7;
+}
+
+.header__menu-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 13%;
+    left: 79.7%;
+    list-style: none;
+    min-width: 120px;
+    margin: 0;
+    padding: 0;
+}
+
+.header__icon_shopping-cart {
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}

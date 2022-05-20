@@ -8,14 +8,14 @@
 @import url(../blocks/header/__welcome/header__welcome.css);
 @import url(../blocks/header/__login-sign-up/header__login-sign-up.css);
 @import url(../blocks/header/__login-sign-up/header__login.css);
-@import url(../blocks/header/__login-sign-up/header__sign-up.css);*/
+@import url(../blocks/header/__login-sign-up/header__sign-up.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang/__lang_select/header__lang_select.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
 @import url(../blocks/header/__shopping-cart/header__link.css);
 @import url(../blocks/header/__menu-user/header__menu-user.css);
-@import url(../blocks/header/__menu-icon/header__icon.css);
+@import url(../blocks/header/__menu-icon/header__icon.css);*/
 
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__button/search__button.css);
