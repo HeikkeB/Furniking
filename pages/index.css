@@ -2,13 +2,13 @@
 
 @import url(../fonts/fonts.css);
 
-@import url(../blocks/page/page.css);
+/*@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__top_rectangle/header__top-rectangle.css);
 @import url(../blocks/header/__welcome/header__welcome.css);
 @import url(../blocks/header/__login-sign-up/header__login-sign-up.css);
 @import url(../blocks/header/__login-sign-up/header__login.css);
-@import url(../blocks/header/__login-sign-up/header__sign-up.css);
+@import url(../blocks/header/__login-sign-up/header__sign-up.css);*/
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang/__lang_select/header__lang_select.css);
 @import url(../blocks/header/__logo/header__logo.css);

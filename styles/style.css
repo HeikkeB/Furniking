@@ -1,0 +1,87 @@
+.page {
+    position: relative;
+    width: 1440px;
+    height: 6431px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    min-height: 663px;
+}
+
+.header__top-rectangle {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 50px;
+    top: 0px;
+    background: #7AC751;
+}
+
+.header__welcome {
+    position: absolute;
+    min-width: 204px;
+    height: 19px;
+    left: 9%;
+    margin: 15px auto;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__login-sign-up {
+    display: flex;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    min-width: 121px;
+    height: 19px;
+    right: 9%;
+    list-style: none;
+    flex-direction: row;
+    margin: 15px auto;
+}
+
+.header__login {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: opacity .5s ease;
+    opacity: 1;
+}
+
+.header__login:hover {
+    transition: opacity .5s ease;
+    opacity: .7;
+}
+
+.header__sign-up {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: opacity .5s ease;
+    opacity: 1;
+}
+
+.header__sign-up:hover {
+    transition: opacity .5s ease;
+    opacity: .7;
+}
