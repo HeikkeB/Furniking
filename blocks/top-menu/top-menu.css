@@ -1,0 +1,8 @@
+.top-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 45px auto 73px;
+    width: 750px;
+}

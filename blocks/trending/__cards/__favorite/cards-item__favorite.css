@@ -1,0 +1,42 @@
+.cards-item__favorite {
+    height: 38.894474029541016px;
+    width: 38.84892272949219px;
+    border-radius: 50%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 7px;
+    top: 186px;
+    margin: 0;
+    padding: 0;
+    background-color: #dcdcdc;
+}
+
+/*.cards-item__favorite:link {
+    background-color: #d2fed4;
+}
+
+.cards-item__favorite:visited {
+    background-color: #74ba4e;
+}*/
+
+.cards-item__favorite:hover {
+    background-color: #97e16f;
+}
+
+.cards-item__favorite:active {
+    background-color: #7AC751;
+    transform: scale(.92);
+    box-shadow: 0 0 5px #65a443;
+}
+
+
+.cards-item__fovorite_img {
+    border-radius: 50%;
+    height: 25.2px;
+    width: 26.8px;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,14 @@
+.trending__card-item {
+    height: 387px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    transition: transform .3s ease-in;
+    transform: scale(1);
+}
+
+.trending__card-item:hover {
+    box-shadow: 0 0 3px #66a046;
+    transform: scale(1.1);
+    transition: transform .3s ease-out;
+}
