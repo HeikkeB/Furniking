@@ -1,0 +1,22 @@
+.card-big__link {
+    position: absolute;
+    margin: 407px 0 0 44px;
+    padding: 0;
+    width: 82.46px;
+    height: 17.07px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: .8;
+    transition: opacity .2s ease;
+}
+
+.card-big__link:hover {
+    opacity: 1;
+    transition: opacity .2s ease;
+}

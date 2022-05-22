@@ -1,7 +1,8 @@
 .card-big__tag {
     position: absolute;
-    top: 10px;
-    left: 0;
+    background-image: url(../../../image/Tag_furniture.svg);
     width: 99.6px;
     height: 23.96px;
+    margin: 250px 0 0 46px;
+    padding: 0;
 }

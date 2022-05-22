@@ -11,6 +11,7 @@
     flex-direction: column;
     transition: transform .2s ease-in;
     transform: scale(1);
+    will-change: transform;
 }
 
 .special-offer__card:hover {
@@ -64,4 +65,5 @@
     margin: 0 0 0 24px;
     height: 38px;
     width: 227px;
+    will-change: transform;
 }

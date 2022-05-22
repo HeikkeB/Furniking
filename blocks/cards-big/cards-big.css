@@ -5,4 +5,7 @@
     flex-wrap: wrap;
     width: 1170px;
     height: 930px;
+    padding: 0;
+    margin: 60px 0 0 0;
+    row-gap: 22px;
 }
