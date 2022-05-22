@@ -1,8 +1,14 @@
 .footer {
-    border: 1px solid red;
     height: 300px;
     width: 1170px;
     position: absolute;
     top: 5386px;
+}
 
+.footer__line-pic {
+    width: 1170px;
+    height: 2px;
+    background-color: #969696;
+    padding: 0;
+    margin: 50px 0 0;
 }
