@@ -13,6 +13,8 @@
 @import url(../blocks/header/__lang/__lang_select/header__lang_select.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
+@import url(../blocks/logo/logo.css);
+
 @import url(../blocks/header/__shopping-cart/header__link.css);
 @import url(../blocks/header/__menu-user/header__menu-user.css);
 @import url(../blocks/header/__menu-icon/header__icon.css);
@@ -95,5 +97,12 @@
 @import url(../blocks/cards-big/cards-big.css);
 @import url(../blocks/cards-big/__item/card-big__item.css);
 @import url(../blocks/cards-big/__item/card-big__img.css);
-@import url(../blocks/cards-big/__item/card-big__tag.css);
 @import url(../blocks/cards-big/__item/card-big__link.css);
+@import url(../blocks/cards-big/__item/card-big__tag.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/footer__description.css);
+@import url(../blocks/footer/footer__icon-social-bar.css);
+@import url(../blocks/footer/footer__link.css);
+@import url(../blocks/footer/footer__help.css);

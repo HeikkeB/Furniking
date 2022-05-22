@@ -1,8 +1,42 @@
 .card-big__tag {
     position: absolute;
+    margin: 250px 0 0 46px;
+    padding: 0;
+    border-radius: 3px;
+}
+
+.card-big__tag_furniture {
     background-image: url(../../../image/Tag_furniture.svg);
     width: 99.6px;
     height: 23.96px;
-    margin: 250px 0 0 46px;
-    padding: 0;
+}
+
+.card-big__tag_table {
+    background-image: url(../../../image/table_Tag.svg);
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 23.96px;
+}
+
+.card-big__date_table {
+    margin-left: 127px;
+}
+
+.card-big__tag_bench {
+    background-image: url(../../../image/Tag_bench.svg);
+    background-repeat: no-repeat;
+    width: 83px;
+    height: 23.96px;
+}
+
+.card-big__date_bench,
+.card-big__date_chair {
+    margin-left: 134px;
+}
+
+.card-big__tag_chair {
+    background-image: url(../../../image/Tag_chair.svg);
+    background-repeat: no-repeat;
+    width: 83px;
+    height: 23.96px;
 }

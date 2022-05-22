@@ -1,10 +1,4 @@
 .header__logo {
-    display: flex;
-    position: absolute;
-    width: 147px;
-    height: 38.96px;
     left: 12%;
     top: 12%;
-    padding: 0;
-    background-size: cover;
 }

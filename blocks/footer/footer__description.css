@@ -1,0 +1,13 @@
+.footer__description {
+    border: 1px solid red;
+    width: 318px;
+    height: 96px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #555555;
+    padding: 0;
+    margin: 58px 0 0 10px;
+}
