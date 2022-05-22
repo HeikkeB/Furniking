@@ -14,6 +14,7 @@
     background-color: #ebedee;
     transform: scale(1);
     transition: transform .2s ease;
+    will-change: transform;
 }
 
 .footer__icon-social:hover {

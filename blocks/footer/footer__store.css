@@ -1,0 +1,9 @@
+.footer__store {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 758px;
+}
