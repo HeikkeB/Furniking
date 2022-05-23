@@ -14,20 +14,12 @@
     background-color: #dcdcdc;
 }
 
-/*.cards-item__favorite:link {
-    background-color: #d2fed4;
-}
-
-.cards-item__favorite:visited {
-    background-color: #74ba4e;
-}*/
-
 .cards-item__favorite:hover {
-    background-color: #97e16f;
+    background-color: #95cf75;
 }
 
 .cards-item__favorite:active {
-    background-color: #7AC751;
+    background-color: #70b34c;
     transform: scale(.92);
     box-shadow: 0 0 5px #65a443;
 }

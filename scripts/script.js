@@ -1,3 +1,11 @@
+window.onload = function () {
+    setTimeout(function () {
+        document.body.classList.add('loaded')
+
+    }, 200)
+}
+
+
 // Set the date we're counting down to
 var countDownDate = new Date("June 5, 2022 14:59:00").getTime();
 

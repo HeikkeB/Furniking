@@ -1,9 +1,9 @@
 .header__link {
-    transition: opacity .5s ease;
-    opacity: 1;
+    transition: opacity .4s ease;
+    opacity: .8;
 }
 
 .header__link:hover {
-    transition: opacity .5s ease;
-    opacity: .7;
+    transition: opacity .4s ease;
+    opacity: 1;
 }
